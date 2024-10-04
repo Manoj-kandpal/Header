@@ -1,8 +1,3 @@
-html {
-  font-size: 10px;
-}
+@import 'config/__all';
 
-body {
-  font-size: 1.6rem;
-  background-color: red;
-}
+@import 'header/header';

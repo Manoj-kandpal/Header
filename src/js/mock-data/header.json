@@ -1,0 +1,183 @@
+{
+  "data": {
+      "id": 14,
+      "documentId": "gy3ctedlycf1etcq11btbu4d",
+      "createdAt": "2024-09-27T06:13:43.434Z",
+      "updatedAt": "2024-09-29T07:30:41.566Z",
+      "publishedAt": "2024-09-29T07:30:41.615Z",
+      "locale": null,
+      "MenuItems": [
+          {
+              "__component": "header.dropdown",
+              "id": 28,
+              "title": "Product",
+              "type": "dropdown",
+              "additionalLinks": [
+                  {
+                      "id": 129,
+                      "title": "Enterprise",
+                      "href": "#",
+                      "type": "link",
+                      "ariaLabel": "Click to learn more about Enterprise"
+                  },
+                  {
+                      "id": 130,
+                      "title": "Integrations",
+                      "href": "#",
+                      "type": "link",
+                      "ariaLabel": null
+                  },
+                  {
+                      "id": 131,
+                      "title": "Design Systems",
+                      "href": "#",
+                      "type": "link",
+                      "ariaLabel": null
+                  },
+                  {
+                      "id": 132,
+                      "title": "All feautures",
+                      "href": "#",
+                      "type": "link",
+                      "ariaLabel": null
+                  }
+              ],
+              "mainLinks": [
+                  {
+                      "id": 63,
+                      "title": "Prototyping",
+                      "href": "#",
+                      "description": "Protyping tools for web and apps",
+                      "ariaLabel": "Prototyping aria label"
+                  },
+                  {
+                      "id": 64,
+                      "title": "UI Design",
+                      "href": "#",
+                      "description": "Free UI design software",
+                      "ariaLabel": null
+                  },
+                  {
+                      "id": 65,
+                      "title": "Interactive Design",
+                      "href": "#",
+                      "description": "Interaction design tools",
+                      "ariaLabel": null
+                  },
+                  {
+                      "id": 66,
+                      "title": "Collaboration",
+                      "href": "#",
+                      "description": "Design better together",
+                      "ariaLabel": null
+                  }
+              ],
+              "footer": {
+                  "id": 59,
+                  "title": "JustInMind 10.6",
+                  "href": "#",
+                  "description": "User flows diagramming and simulation",
+                  "ariaLabel": null
+              }
+          },
+          {
+              "__component": "header.link",
+              "id": 123,
+              "title": "Examples",
+              "href": "#examples",
+              "type": "link",
+              "ariaLabel": "Example aria label"
+          },
+          {
+              "__component": "header.dropdown",
+              "id": 27,
+              "title": "Free resources",
+              "type": "dropdown",
+              "additionalLinks": [
+                  {
+                      "id": 125,
+                      "title": "Help Center",
+                      "href": "#",
+                      "type": "link",
+                      "ariaLabel": null
+                  },
+                  {
+                      "id": 126,
+                      "title": "Customer stories",
+                      "href": "#",
+                      "type": "link",
+                      "ariaLabel": null
+                  },
+                  {
+                      "id": 127,
+                      "title": "UX talks",
+                      "href": "#",
+                      "type": "link",
+                      "ariaLabel": null
+                  },
+                  {
+                      "id": 128,
+                      "title": "Blog",
+                      "href": "#",
+                      "type": "link",
+                      "ariaLabel": null
+                  }
+              ],
+              "mainLinks": [
+                  {
+                      "id": 60,
+                      "title": "Wireframing",
+                      "href": "#",
+                      "description": "Free wireframe tool",
+                      "ariaLabel": null
+                  },
+                  {
+                      "id": 61,
+                      "title": "Design Templates",
+                      "href": "#",
+                      "description": "Free design templates",
+                      "ariaLabel": null
+                  },
+                  {
+                      "id": 62,
+                      "title": "Interactive UI components",
+                      "href": "#",
+                      "description": "Web, iOS, Android and more UI kits",
+                      "ariaLabel": null
+                  }
+              ],
+              "footer": null
+          },
+          {
+              "__component": "header.link",
+              "id": 124,
+              "title": "Pricing",
+              "href": "#pricing",
+              "type": "link",
+              "ariaLabel": null
+          },
+          {
+              "__component": "header.button-group",
+              "id": 9,
+              "type": "buttons",
+              "buttons": [
+                  {
+                      "id": 24,
+                      "title": "Login",
+                      "href": "#",
+                      "type": "primary",
+                      "ariaLabel": "Click to login"
+                  },
+                  {
+                      "id": 25,
+                      "title": "Complete",
+                      "href": "#",
+                      "type": "secondary",
+                      "ariaLabel": null
+                  }
+              ]
+          }
+      ]
+  },
+  "meta": {}
+}

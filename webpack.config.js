@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const Dotenv = require("dotenv-webpack");
 const path = require("path");
 
 const generateConfig = () => {
@@ -12,6 +13,7 @@ const generateConfig = () => {
       path: path.resolve(__dirname, "deploy"),
     },
     plugins: [
+      new Dotenv(),
       new HtmlWebpackPlugin({
         title: "Webpack Output",
         filename: "index.html",
@@ -48,6 +50,10 @@ const generateConfig = () => {
           test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
           type: "asset/resource",
         },
+        {
+          test: /\.svg$/,
+          loader: 'svg-inline-loader'
+        }
       ],
     },
     devServer: {
@@ -55,6 +61,12 @@ const generateConfig = () => {
       open: true,
       // port: 3000
     },
+    resolve: {
+      fallback: {
+        fs: false,
+        path: false
+      }
+    }
   };
 
   return config;
