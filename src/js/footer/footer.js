@@ -116,9 +116,24 @@ const bind = () => {
   bindResizeHandler();
 };
 
+const fetchHeadlessNavigationFooterData = async () => {
+  if (localStorage.getItem('navigation-footer')) {
+    const headerDataFromLocaStorage = JSON.parse(
+      localStorage.getItem('navigation-footer')
+    );
+    // console.log("local data: ", headerDataFromLocaStorage);
+    return headerDataFromLocaStorage;
+  } else {
+    const { data } = await getFooterData();
+    console.log('data: ', data);
+    localStorage.setItem('navigation-footer', JSON.stringify(data.footer));
+    return data.footer;
+  }
+};
+
 const startFooter = async () => {
-  const { data } = await getFooterData();
-  document.body.insertAdjacentHTML('beforeend', footerTemplate(data.footer));
+  const data = await fetchHeadlessNavigationFooterData();
+  document.body.insertAdjacentHTML('beforeend', footerTemplate(data));
 
   bind();
 };
