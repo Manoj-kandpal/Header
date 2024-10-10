@@ -1,28 +1,3 @@
-html {
-  font-size: 10px;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: rgb(188, 233, 246);
-}
-
-main {
-  // background-color: green;
-  font-size: 2rem;
-  margin-top: $margin-xxxlarge;
-  padding: 0 $padding-main;
-  text-align: justify;
-  font-family: $roboto-font;
-  font-size: 1.5rem;
-
-
-  @media (max-width: 900px) {
-    padding: 0 $padding-large;
-  }
-}
-
 .header {
   background-color: $header-background-color;
   font-family: $roboto-font;
@@ -33,18 +8,24 @@ main {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 
 
   .navbar {
-    margin: 0;
+    
     // padding: 20px 0;
-    max-width: 1400px;
-    margin: auto;
+    
+    margin: 0;
 
     &__container {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      padding: 0 66px;
+      max-width: 1366px;
+      box-sizing: border-box;
+      
+      margin: auto;
 
       .navbar__mobile-menu--toggle {
         display: none;

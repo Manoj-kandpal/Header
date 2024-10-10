@@ -15,7 +15,16 @@ const populateNavigationBarData = () => {
   }
 }
 
+const populateFooterData = () => {
+  return {
+    populate: ['footer.links.columns.links', 'footer.information.copyright','footer.information.socialLinks.link']
+  }
+}
+
 export const populateNavigationBarQuery = qs.stringify(populateNavigationBarData());
+export const populateFooterQuery = qs.stringify(populateFooterData());
+
+
 
 // const queryObject = {
 //   populate: ['MenuItems', 'MenuItems.footer', 'MenuItems.section', 'MenuItems.section.links', 'MenuItems.additionalLinks']

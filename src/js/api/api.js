@@ -7,13 +7,21 @@
 //     return data;
 // }
 
-import { populateNavigationBarQuery } from '../utils/query';
+import { populateNavigationBarQuery, populateFooterQuery } from '../utils/query';
 
 const headerDataApi = `${process.env.BASE_API}/api/navigation`;
+const footerDataApi = `${process.env.BASE_API}/api/footer`;
 
 export const getNavigationData = async () => {
-    console.log(populateNavigationBarQuery);
     const response = await fetch(`${headerDataApi}?${populateNavigationBarQuery}`);
     const data = await response.json();
+    return data;
+};
+
+export const getFooterData = async () => {
+    // console.log(populateFooterQuery);
+    const response = await fetch(`${footerDataApi}?${populateFooterQuery}`);
+    const data = await response.json();
+    // console.log("footer data: ", data);
     return data;
 };

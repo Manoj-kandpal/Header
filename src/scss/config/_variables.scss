@@ -1,10 +1,12 @@
 $header-background-color: #fff;
+$footer-background-color: #fff;
 $header-border-color: #ccc;
 
 $font-color-primary: #000;
 $font-color-secondary: #dbd9d9;
 $dropdown-additional-links-background-color: #eae9e9;
 $dropdown-link-description-color: #8f8e8e;
+$footer-link-color-primary: #55585a;
 
 // button--primary
 $button-primary-background-color: white;
@@ -15,8 +17,10 @@ $button-secondary-background-color: $dropdown-additional-links-background-color;
 $button-secondary-border-color: $header-border-color;
 
 // margin
+$margin-xxsmall: 5px;
 $margin-xsmall: 10px;
 $margin-small: 15px;
+$margin-small-medium: 18px;
 $margin-medium: 20px;
 $margin-medium-large: 25px;
 $margin-large: 30px;
@@ -27,16 +31,19 @@ $padding-xsmall: 10px;
 $padding-small: 15px;
 $padding-medium: 20px;
 $padding-large: 30px;
+$padding-xlarge: 50px;
 $padding-main: 150px;
 
 // font-size
 $font-size-default: 1.5rem;
 $dropdown-link-description-font-size: 1.3rem;
 $dropdown-additional-link-font-size: $dropdown-link-description-font-size;
+$footer-copyright-font-size: 1.3rem;
 
 // font weight
 $dropdown-link-title-font-weight: 500;
 $font-default-weight: 400;
+$footer-column-heading-font-weight: 500;
 
 // font family
 $roboto-font: 'Roboto', sans-serif;

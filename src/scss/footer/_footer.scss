@@ -1,0 +1,207 @@
+.footer {
+  padding-top: $padding-xlarge;
+  font-family: $roboto-font;
+  font-size: $font-size-default;
+  background-color: $footer-background-color;
+  box-shadow: 0 1px 4px $header-border-color;
+  position: relative;
+
+  &__container {
+    max-width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 66px;
+    box-sizing: border-box;
+    z-index: -1;
+  }
+
+  &__links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    &__column {
+
+      .expand,
+      .collapse {
+        display: none;
+      }
+
+      &__title {
+        text-transform: uppercase;
+        font-weight: $footer-column-heading-font-weight;
+        margin-bottom: $margin-medium;
+      }
+
+      &__list {
+        list-style: none;
+        padding: 0;
+
+        &__item {
+          margin-bottom: $margin-small-medium;
+
+          &__link {
+            text-decoration: none;
+            color: $footer-link-color-primary;
+
+            &:hover {
+              opacity: 0.5;
+            }
+          }
+        }
+      }
+    }
+
+    @media (max-width: 1000px) {
+      display: flex;
+      flex-direction: column;
+
+      &__column {
+        position: relative;
+        border-bottom: 1px solid $header-border-color;
+        // transition: all 0.3s ease-in-out;
+
+        .expand,
+        .collapse {
+          width: 10px;
+          height: 10px;
+          display: block;
+          position: absolute;
+          top: 20px;
+          right: 0;
+          z-index: 6;
+        }
+
+        &--collapsed {
+          .expand {
+            display: block;
+          }
+
+          .collapse {
+            display: none;
+          }
+        }
+
+        &--expanded {
+          border-bottom: none;
+          .expand {
+            display: none;
+          }
+
+          .collapse {
+            display: block;
+          }
+        }
+
+        &__title {
+          margin-bottom: $margin-xsmall;
+          margin-top: $margin-medium;
+          cursor: pointer;
+          z-index: 10;
+
+          &:hover {
+            opacity: 0.5;
+          }
+        }
+
+
+        &__list {
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.4s ease-out;
+          margin: $margin-xxsmall 0;
+
+          &--open {
+            max-height: 500px;
+            margin-top: $margin-small;
+
+            .footer__links__column__list__item {
+              opacity: 1;
+              transform: translateY(0);
+            }
+          }
+
+          &__item {
+            opacity: 0;
+            transform: translateY(-10px);
+            transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+
+            &__link {
+              display: inline-block;
+            }
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__information {
+    margin-top: $margin-medium;
+    width: 100%;
+
+    &__container {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: $margin-medium 0;
+    }
+
+    &__logo {
+      font-size: $footer-copyright-font-size;
+    }
+
+    &__social {
+      &__list {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        padding: 0;
+
+        &__item {
+          margin: 0 $margin-small;
+
+          &__link {
+            text-decoration: none;
+            color: $font-color-primary;
+            font-size: $footer-copyright-font-size;
+
+            &:hover {
+              opacity: 0.5;
+            }
+
+          }
+        }
+      }
+    }
+
+    @media (max-width: 1000px) {
+      &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+  @media (min-width: 1001px) {
+
+    &__information::before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 1px;
+      background-color: $header-border-color;
+      position: absolute;
+      left: 0;
+    }
+  }
+}

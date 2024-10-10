@@ -1,5 +1,6 @@
 import { headerTemplate } from './header.template';
 import { getNavigationData } from '../api/api';
+import { addEventListener, removeEventListener } from '../utils/helper';
 const fallbackData = require('../mock-data/header.json');
 
 export { startHeader };
@@ -171,18 +172,6 @@ const startHeader = async () => {
 
   bind();
 };
-
-function addEventListener(el, event, fnc) {
-  if (el) {
-    el.addEventListener(event, fnc);
-  }
-}
-
-function removeEventListener(el, event, fnc) {
-  if (el) {
-    el.removeEventListener(event, fnc);
-  }
-}
 
 function closeAllOpenendDropdown() {
   openedDropdowns.forEach((dropdown) => {
