@@ -1,0 +1,291 @@
+{
+  "data": {
+    "id": 6,
+    "documentId": "pf1wlpb6evcns7lkhrkjstfs",
+    "createdAt": "2024-10-05T05:00:59.569Z",
+    "updatedAt": "2024-10-05T07:37:45.973Z",
+    "publishedAt": "2024-10-05T07:37:46.039Z",
+    "locale": null,
+    "footer": {
+      "id": 7,
+      "information": {
+        "id": 7,
+        "copyright": {
+          "id": 7,
+          "text": "$copy, 2024 Company"
+        },
+        "socialLinks": {
+          "id": 7,
+          "link": [
+            {
+              "id": 381,
+              "title": "Facebook",
+              "href": "facebook.com",
+              "type": "link",
+              "ariaLabel": null
+            },
+            {
+              "id": 382,
+              "title": "Twitter",
+              "href": "x.com",
+              "type": "link",
+              "ariaLabel": null
+            },
+            {
+              "id": 383,
+              "title": "Linkedin",
+              "href": "linkedin.com",
+              "type": "link",
+              "ariaLabel": null
+            }
+          ]
+        }
+      },
+      "links": {
+        "id": 7,
+        "columns": [
+          {
+            "id": 32,
+            "columnTitle": "Product",
+            "links": [
+              {
+                "id": 352,
+                "title": "Prototyping",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 353,
+                "title": "Interaction",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 354,
+                "title": "UI design",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 355,
+                "title": "Colaboration",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 356,
+                "title": "Enterprise",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 357,
+                "title": "Design System",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 358,
+                "title": "API & SDK",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 359,
+                "title": "All features",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "columnTitle": "USE Cases",
+            "links": [
+              {
+                "id": 360,
+                "title": "Web design",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 361,
+                "title": "App design",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 362,
+                "title": "VR & AR",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 363,
+                "title": "Requirements",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "columnTitle": "INTEGRations",
+            "links": [
+              {
+                "id": 364,
+                "title": "All integrations",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 365,
+                "title": "Import scratch",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 366,
+                "title": "Start from Adobe",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "columnTitle": "Free tools",
+            "links": [
+              {
+                "id": 367,
+                "title": "Wireframe tools",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 368,
+                "title": "Mocu tool",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 369,
+                "title": "UI Kits",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "columnTitle": "Resource",
+            "links": [
+              {
+                "id": 370,
+                "title": "Login",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 371,
+                "title": "Download",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 372,
+                "title": "Help",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 373,
+                "title": "Design",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 374,
+                "title": "Customer Stories",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 375,
+                "title": "UX talks",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 376,
+                "title": "Blog",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "columnTitle": "COmpany",
+            "links": [
+              {
+                "id": 377,
+                "title": "Contact us",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 378,
+                "title": "About us",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 379,
+                "title": "Brand assets",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              },
+              {
+                "id": 380,
+                "title": "Experts",
+                "href": "#",
+                "type": "link",
+                "ariaLabel": null
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "meta": {}
+}

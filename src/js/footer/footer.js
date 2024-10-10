@@ -1,6 +1,7 @@
 import { getFooterData } from '../api/api';
 import { footerTemplate } from './footer.template';
 import { addEventListener, removeEventListener } from '../utils/helper';
+const fallbackData = require('../mock-data/footer.json');
 
 export { startFooter };
 
@@ -132,7 +133,9 @@ const fetchHeadlessNavigationFooterData = async () => {
 };
 
 const startFooter = async () => {
-  const data = await fetchHeadlessNavigationFooterData();
+  // const data = await fetchHeadlessNavigationFooterData();
+  console.log('fallbackData: ', fallbackData.data.footer);
+  const data = {...fallbackData.data.footer};
   document.body.insertAdjacentHTML('beforeend', footerTemplate(data));
 
   bind();

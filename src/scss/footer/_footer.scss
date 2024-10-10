@@ -72,7 +72,6 @@
           position: absolute;
           top: 20px;
           right: 0;
-          z-index: 6;
         }
 
         &--collapsed {
@@ -100,7 +99,6 @@
           margin-bottom: $margin-xsmall;
           margin-top: $margin-medium;
           cursor: pointer;
-          z-index: 10;
 
           &:hover {
             opacity: 0.5;

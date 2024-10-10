@@ -166,7 +166,9 @@ const bind = () => {
 };
 
 const startHeader = async () => {
-  const data = await fetchHeadlessNavigationData();
+  // const data = await fetchHeadlessNavigationData();
+  const data = {...fallbackData.data};
+  // console.log('header data: ', data.data);
   header = document.getElementById('header');
   header.innerHTML = headerTemplate(data);
 
